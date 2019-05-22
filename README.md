@@ -2,6 +2,17 @@
 
 Useful to find minimum distance between two given strings.
 
+# Usage
+
+```
+const lev = require("./levenshtein.js");
+
+const newString = "gambol";
+const oldString = "gumbo";
+
+console.log(lev(oldString, newString)); //returns 2
+```
+
 # Resources
 
 For more info on Levenshtein distance:

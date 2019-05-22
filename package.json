@@ -1,0 +1,16 @@
+{
+  "name": "levenshtein-demo",
+  "version": "1.0.0",
+  "description": "Levenshtein algorithm playground in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon demo.js"
+  },
+  "keywords": ["levenshtein", "algorithm", "javascript", "cs"],
+  "author": "Igor L Irianto <igoririanto@rocketmail.com>",
+  "license": "mit",
+  "devDependencies": {
+    "nodemon": "1.19.0"
+  }
+}
